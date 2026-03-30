@@ -1,19 +1,25 @@
-# Proyecto Módulo 8 - Felipe Villegas
+# Portafolio Personal - Felipe Villegas
 
 ## 📌 Descripción
-Este proyecto corresponde al **Módulo 8** del Bootcamp de Python.  
-El objetivo es aplicar los conocimientos adquiridos en programación, manejo de datos y buenas prácticas de desarrollo, integrando conceptos de **logística, administración y seguridad** en un entorno tecnológico.
+Este repositorio contiene mi **portafolio personal en HTML**, desarrollado como parte del proyecto del Módulo 8.  
+El portafolio presenta mi perfil profesional, experiencia laboral, formación académica, proyectos realizados y habilidades técnicas.
 
-## 🚀 Funcionalidades
-- Gestión de datos y operaciones básicas en Python.
-- Uso de estructuras de control y funciones personalizadas.
-- Integración con herramientas de administración (SAP, ERP, Primavera).
-- Ejemplos prácticos orientados a la logística y supervisión de seguridad.
+## 🚀 Contenido
+- **Hero Section**: Presentación con enlaces a GitHub, LinkedIn y descarga de CV.
+- **Sobre mí**: Resumen de mi perfil profesional.
+- **Empresa objetivo**: Ejemplo de empresa donde me gustaría aplicar mis conocimientos.
+- **Proyectos**: Listado de proyectos con íconos y enlaces a GitHub.
+- **Currículum**: Experiencia laboral, formación académica, habilidades y disponibilidad.
+- **FODA**: Análisis personal de fortalezas, oportunidades, debilidades y amenazas.
+- **Contacto**: Información de contacto y footer.
 
 ## 🛠️ Tecnologías utilizadas
-- **Lenguajes:** Python, HTML, JavaScript, C, C++
-- **Frameworks/Librerías:** Bootstrap
-- **Herramientas:** GitHub, SAP, ERP, Primavera
-- **Otros:** Office, Excel
+- **HTML5**
+- **CSS3**
+- **Bootstrap 5**
+- **Bootstrap Icons**
 
-## 📂 Estructura del proyecto
+## 📖 Uso
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/mercuryblade/proyecto_modulo_8.git
