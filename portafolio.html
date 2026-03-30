@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portafolio - Felipe Villegas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <style>
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    h1, h2, h4 {
+      color: #00aaff;
+    }
+    .navbar {
+      background-color: #1f1f1f;
+    }
+    .card {
+      background-color: #1f1f1f;
+      border: none;
+      box-shadow: 0 0 10px rgba(0,170,255,0.3);
+    }
+    .card-title {
+      color: #00aaff;
+    }
+    .section {
+      padding: 60px 0;
+    }
+    .footer {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      color: #888;
+    }
+    a {
+      color: #00aaff;
+    }
+    a:hover {
+      color: #66d9ff;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center;
+      background-size: cover;
+      text-align: center;
+      padding: 120px 20px;
+      color: #fff;
+    }
+    .hero h1, .hero p {
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+    .btn-custom {
+      margin: 5px;
+    }
+    .badge {
+      margin: 5px;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Felipe Villegas</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#empresa">Empresa</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cv">Currículum</a></li>
+          <li class="nav-item"><a class="nav-link" href="#foda">FODA</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Felipe Gonzalo Villegas Silva</h1>
+    <p>Constructor Civil | Desarrollador en formación (Java & Python)</p>
+    <a href="https://github.com/mercuryblade" target="_blank" class="btn btn-outline-light btn-custom"><i class="bi bi-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/felipe-villegas-b8150234a" target="_blank" class="btn btn-outline-light btn-custom"><i class="bi bi-linkedin"></i> LinkedIn</a>
+    <a href="CV_Felipe_Villegas_2025_Actualizado.pdf" class="btn btn-outline-light btn-custom"><i class="bi bi-file-earmark-person"></i> Descargar CV</a>
+  </section>
+
+  <!-- Sobre mí -->
+  <section id="sobre-mi" class="section container">
+    <h2>Sobre mí</h2>
+    <p>Soy Constructor Civil titulado con experiencia en administración logística, gestión de inventarios y operaciones. 
+       Complemento mi perfil con formación técnica en programación y desarrollo web, certificado en Fullstack Java y en curso de Bootcamp Python. 
+       Manejo SAP, ERP, Primavera y lenguajes como Java, Python, C, C++, HTML, Bootstrap y JavaScript.</p>
+  </section>
+
+  <!-- Empresa objetivo -->
+  <section id="empresa" class="section container">
+    <h2>Empresa objetivo: Mercado Libre</h2>
+    <p>Mercado Libre es líder en e-commerce y fintech en Latinoamérica. Me atrae su innovación en pagos digitales y escalabilidad en la nube.</p>
+    <ul>
+      <li>Aplicar conocimientos de Python en microservicios.</li>
+      <li>Contribuir en proyectos fintech gracias a mi billetera virtual.</li>
+      <li>Documentar procesos y proponer mejoras técnicas.</li>
+    </ul>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="section container">
+    <h2>Proyectos</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card p-3 text-center">
+          <i class="bi bi-list-check" style="font-size:2rem; color:#00aaff;"></i>
+          <h5 class="card-title mt-2">Gestor de Tareas (Módulo 6)</h5>
+          <p class="card-text">Aplicación en Python para crear, editar y eliminar tareas, con enfoque en organización y productividad.</p>
+          <a href="https://github.com/mercuryblade/Proyecto_Modulo_6" target="_blank" class="btn btn-outline-info"><i class="bi bi-github"></i> Ver en GitHub</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3 text-center">
+          <i class="bi bi-wallet2" style="font-size:2rem; color:#00aaff;"></i>
+          <h5 class="card-title mt-2">Billetera Virtual (Módulo 7)</h5>
+          <p class="card-text">Aplicación fintech en Python que permite depósitos, transferencias y consultas de saldo con validaciones seguras.</p>
+          <a href="https://github.com/mercuryblade/Proyecto_Modulo_7" target="_blank" class="btn btn-outline-info"><i class="bi bi-github"></i> Ver en GitHub</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3 text-center">
+          <i class="bi bi-currency-bitcoin" style="font-size:2rem; color:#00aaff;"></i>
+          <h5 class="card-title mt-2">Criptomoneda Virtual</h5>
+          <p class="card-text">Proyecto en Python que simula una criptomoneda propia, con funciones de minería, transacciones y balance.</p>
+          <a href="https://github.com/mercuryblade/proyecto" target="_blank" class="btn btn-outline-info"><i class="bi bi-github"></i> Ver en GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Currículum -->
+  <section id="cv" class="section container">
+    <h2>Currículum</h2>
+    <p><strong>Perfil Profesional:</strong> Constructor Civil titulado con experiencia en administración logística y formación técnica en programación.</p>
+    
+    <h5>Experiencia Laboral</h5>
+    <ul>
+      <li>ManPower – CD Tottus La Farfana (2025 – Actualidad): Gestión de materiales e inventarios con SAP, ERP y Primavera.</li>
+      <li>Villegas SpA – Hostal Cantábrico (2023 – 2024): Administración general, gestión de insumos y mantenimiento.</li>
+      <li>Arriendo y Construcciones Menores SpA (2021): Encargado de bodega, control de inventario con ERP y Excel.</li>
+      <li>Oreval Construcciones (2017 – 2019): Gestión de materiales y protocolos de seguridad con SAP.</li>
+      <li>Kaymail Global Courrier (2019 – 2020): Organización y distribución de correspondencia y encomiendas.</li>
+      <li>Supervisor de Seguridad – Master Seguridad / Yerko Borquez Seguridad (2015 – 2016): Supervisión de guardias, CCTV y protocolos
